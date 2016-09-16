@@ -12,7 +12,6 @@
 TS=$(date +%Y%m%d%H%M%S)
 FILE=/tmp/photo-organizer-${TS}
 
-echo "Writing into ${FILE}" 
 find ${1} -type f > ${FILE}
 
 while read file
