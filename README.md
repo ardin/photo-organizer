@@ -2,6 +2,11 @@
 
 Script extracts create date from exif metadata included in image file, then creates directory in format YYYY-MM and moves  file in new format YYYY-MM-DD_H:m:s.ext .
 
+**Requirements:**
+<pre>
+# yum install perl-Image-ExifTool
+</pre>
+
 **Usage:**
 <pre>
 $ photo-organizer 
